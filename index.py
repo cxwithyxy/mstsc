@@ -8,7 +8,7 @@ def get_argu(index: int, name: str =""):
         return sys.argv[index]
     except:
         print(f"ERROR: missing {name if len(name) > 1 else index}")
-        exit()
+        sys.exit()
 
 server_ip = get_argu(1, "ip")
 rdpUser = get_argu(2, "username")

@@ -1,3 +1,6 @@
 venv/
 theRdp.rdp
 .vscode/
+dist/
+build/
+*.pyc
